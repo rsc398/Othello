@@ -35048,3 +35048,522 @@ clear
 					X=1    #場所無しスキップエンド
     echo "置ける場所がない為パスします"
   fi
+
+  #----------------------------------------------------------------------------------------------------------------------
+#点数計算
+  if [ "$V11" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V11" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V12" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V12" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V13" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V13" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V14" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V14" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V15" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V15" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V16" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V16" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V17" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V17" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V18" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V18" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  #------------------------------------------------------
+  if [ "$V21" == "$U" ] ; then
+    black=$(( black + 1 ))V11="$U"
+  elif [ "$V21" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V22" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V22" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V23" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V23" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V24" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V24" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V25" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V25" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V26" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V26" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V27" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V27" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V28" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V28" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  #-----------------------------
+  if [ "$V31" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V31" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V32" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V32" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V33" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V33" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V34" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V34" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V35" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V35" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V36" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V36" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V37" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V37" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V38" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V38" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  if [ "$V41" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V41" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V42" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V42" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V43" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V43" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V44" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V44" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V45" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V45" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V46" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V46" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V47" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V47" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V48" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V48" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  if [ "$V51" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V51" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V52" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V52" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V53" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V53" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V54" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V54" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V55" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V55" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V56" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V56" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V57" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V57" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V58" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V58" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V61" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V61" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V62" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V62" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V63" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V63" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V64" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V64" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V65" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V65" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V66" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V66" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V67" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V67" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V68" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V68" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V71" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V71" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V72" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V72" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V73" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V73" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V74" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V74" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V75" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V75" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V76" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V76" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V77" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V77" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V78" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V78" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V81" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V81" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V82" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V82" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V83" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V83" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V84" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V84" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V85" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V85" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V86" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V86" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V87" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V87" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
+  if [ "$V88" == "$U" ] ; then
+    black=$(( black + 1 ))
+  elif [ "$V88" == "$C" ] ; then
+    white=$(( white + 1 ))
+  else
+					X=1
+    null=$(( null + 1 ))
+  fi
