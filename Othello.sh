@@ -35575,3 +35575,16 @@ else
 					X=1
   black=$(( black + null ))
 fi
+#--------------------------------
+#勝者表示
+if [ $black -lt $white ] ; then
+  echo "勝者　白"
+  echo "黒"$black"個"
+  echo "白"$white"個"
+else
+					X=1
+  echo "勝者　黒"
+  echo "黒"$black"個"
+  echo "白"$white"個"
+fi
+#--------------------------------
