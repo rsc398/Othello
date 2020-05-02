@@ -35567,3 +35567,11 @@ clear
 					X=1
     null=$(( null + 1 ))
   fi
+  #--------------------------------
+#空白計算
+if [ $black -lt $white ] ; then
+  white=$(( white + null ))
+else
+					X=1
+  black=$(( black + null ))
+fi
