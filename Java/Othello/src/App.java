@@ -1506,14 +1506,20 @@ public class App {
             V14 = B;
             } else { 
             }
-        //V23 ここから
-        if (V83 == B && V73 == W && V63 == W && V53 == W && V43 == W && V33 == W) {//右
+        //V23
+        if (V21 == B && V22 == W){//上
             V23 = B;
-            V33 = B;
-            V43 = B;
-            V53 = B;
-            V63 = B;
-            V73 = B;
+            V22 = B;
+        }else if (V41 == B && V32 == W){//右上
+            V23 = B;
+            V32 = B;
+        }else if (V83 == B && V73 == W && V63 == W && V53 == W && V43 == W && V33 == W) {//右
+                V23 = B;
+                V33 = B;
+                V43 = B;
+                V53 = B;
+                V63 = B;
+                V73 = B;
             } else if (V73 == B && V63 == W && V53 == W && V43 == W && V33 == W) {
             V23 = B;
             V33 = B;
@@ -1532,7 +1538,7 @@ public class App {
             } else if (V43 == B && V33 == W) {
             V23 = B;
             V33 = B;
-            } else if (V78 == B && V67 == W && V56 == W && V45 == W && V34 == W) {//斜
+            } else if (V78 == B && V67 == W && V56 == W && V45 == W && V34 == W) {//右下
             V23 = B;
             V34 = B;
             V45 = B;
@@ -1550,15 +1556,13 @@ public class App {
             } else if (V45 == B && V34 == W) {
             V23 = B;
             V34 = B;
-            } else if (V28 == B && V27 == W && V26 == W && V25 == W && V24 == W && V23 == W) {//縦
-            V22 = B;
+            } else if (V28 == B && V27 == W && V26 == W && V25 == W && V24 == W && V23 == W) {//下
             V23 = B;
             V24 = B;
             V25 = B;
             V26 = B;
             V27 = B;
             } else if (V27 == B && V26 == W && V25 == W && V24 == W && V23 == W) {
-            V22 = B;
             V23 = B;
             V24 = B;
             V25 = B;
@@ -1577,7 +1581,7 @@ public class App {
             V23 = B;
             }else{
             }
-        //32
+        //33 ここから
         if (V82 == B && V72 == W && V62 == W && V52 == W && V42 == W) {//右
             V32 = B;
             V42 = B;
