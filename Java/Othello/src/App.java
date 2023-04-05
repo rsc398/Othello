@@ -1650,17 +1650,17 @@ public class App {
             V23 = B;
             } else {
             }
-        //42//ここから
-        if (V82 == B && V72 == W && V62 == W && V52 == W) {//右
-            V42 = B;
-            V52 = B;
-            V62 = B;
-            V72 = B;
-            } else if (V72 == B && V62 == W && V52 == W) {
-            V42 = B;
-            V52 = B;
-            V62 = B;
-            } else if (V62 == B && V52 == W) {
+        //43//ここから
+        if (V83 == B && V73 == W && V63 == W && V53 == W) {//右
+            V43 = B;
+            V53 = B;
+            V63 = B;
+            V73 = B;
+            } else if (V73 == B && V63 == W && V53 == W) {
+            V43 = B;
+            V53 = B;
+            V63 = B;
+            } else if (V63 == B && V53 == W) {
             V42 = B;
             V52 = B;
             } else if (V86 == B && V75 == W && V64 == W && V53 == W) {//右下
