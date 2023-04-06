@@ -1920,9 +1920,12 @@ public class App {
             } else if (V53 == B && V63 == W) {
             V73 = B;
             V63 = B;
+            } else if (V51 == B && V62 == W){//左上
+            V73 = B;
+            V62 = B;
             } else {
             }
-        //82 ここから
+        //83 ここから
         if (V88 == B && V87 == W && V86 == W && V85 == W && V84 == W && V83 == W) {//下
             V82 = B;
             V83 = B;
