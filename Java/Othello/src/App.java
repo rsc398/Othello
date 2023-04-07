@@ -2473,7 +2473,7 @@ public class App {
             V63 = B;
             } else {
             }
-        //84 ここから
+        //84　ここから
         if (V81 == B && V82 == W) {// 上
             V83 = B;
             V84 = B;
