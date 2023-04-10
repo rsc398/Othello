@@ -2481,7 +2481,7 @@ public class App {
             } else if (V82 == B && V83 == W) {
             V84 = B;
             V83 = B;
-            }else if (V88 == B && V87 == W && V86 == W && V85 == W) {//下
+            } else if (V88 == B && V87 == W && V86 == W && V85 == W) {//下
             V84 = B;
             V85 = B;
             V86 = B;
@@ -2538,9 +2538,17 @@ public class App {
             } else if (V64 == B && V74 == W) {
             V84 = B;
             V74 = B;
+            } else if (V51 == B && V62 == W && V73 == W) {//左上
+            V84 = B;
+            V73 = B;
+            V62 = B;
+            } else if (V62 == B && V73 == W) {
+            V84 = B;
+            V73 = B;
             } else {
             }
-            
+            //ここから
+
         
     }
 }
