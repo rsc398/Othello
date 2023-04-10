@@ -2473,79 +2473,71 @@ public class App {
             V63 = B;
             } else {
             }
-        //84　ここから
-        if (V81 == B && V82 == W) {// 上
-            V83 = B;
+        //84
+        if (V81 == B && V82 == W && V83 == W) {// 上
             V84 = B;
-            }else if (V88 == B && V87 == W && V86 == W && V85 == W && V84 == W) {//下
+            V82 = B;
             V83 = B;
+            } else if (V82 == B && V83 == W) {
+            V84 = B;
+            V83 = B;
+            }else if (V88 == B && V87 == W && V86 == W && V85 == W) {//下
             V84 = B;
             V85 = B;
             V86 = B;
             V87 = B;
-            } else if (V87 == B && V86 == W && V85 == W && V84 == W) {
-            V83 = B;
+            } else if (V87 == B && V86 == W && V85 == W) {
             V84 = B;
             V85 = B;
             V86 = B;
-            } else if (V86 == B && V85 == W && V84 == W) {
-            V83 = B;
+            } else if (V86 == B && V85 == W) {
             V84 = B;
             V85 = B;
-            } else if (V86 == B && V85 == W) {
-            V83 = B;
+            } else if (V48 == B && V57 == W && V66 == W && V75 == W) {//左下
             V84 = B;
-            } else if (V38 == B && V47 == W && V56 == W && V65 == W && V74 == W) {//左下
-            V83 = B;
+            V75 = B;
+            V66 = B;
+            V57 = B;
+            } else if (V57 == B && V66 == W && V75 == W) {
+            V84 = B;
+            V75 = B;
+            V66 = B;
+            } else if (V66 == B && V75 == W) {
+            V84 = B;
+            V75 = B;
+            } else if (V14 == B && V24 == W && V34 == W && V44 == W && V54 == W && V64 == W && V74 == W) {//左
+            V84 = B;
             V74 = B;
-            V65 = B;
-            V56 = B;
-            V47 = B;
-            } else if (V47 == B && V56 == W && V65 == W && V74 == W) {
-            V83 = B;
+            V64 = B;
+            V54 = B;
+            V44 = B;
+            V34 = B;
+            V24 = B;
+            } else if (V24 == B && V34 == W && V44 == W && V54 == W && V64 == W && V74 == W) {
+            V84 = B;
             V74 = B;
-            V65 = B;
-            V56 = B;
-            } else if (V56 == B && V65 == W && V74 == W) {
-            V83 = B;
+            V64 = B;
+            V54 = B;
+            V44 = B;
+            V34 = B;
+            } else if (V34 == B && V44 == W && V54 == W && V64 == W && V74 == W) {
+            V84 = B;
             V74 = B;
-            V65 = B;
-            } else if (V65 == B && V74 == W) {
-            V83 = B;
+            V64 = B;
+            V54 = B;
+            V44 = B;
+            } else if (V44 == B && V54 == W && V64 == W && V74 == W) {
+            V84 = B;
             V74 = B;
-            } else if (V13 == B && V23 == W && V33 == W && V43 == W && V53 == W && V63 == W && V73 == W) {//左
-            V83 = B;
-            V73 = B;
-            V63 = B;
-            V53 = B;
-            V43 = B;
-            V33 = B;
-            V23 = B;
-            } else if (V23 == B && V33 == W && V43 == W && V53 == W && V63 == W && V73 == W) {
-            V83 = B;
-            V73 = B;
-            V63 = B;
-            V53 = B;
-            V43 = B;
-            V33 = B;
-            } else if (V32 == B && V42 == W && V52 == W && V62 == W && V72 == W) {
-            V83 = B;
-            V73 = B;
-            V63 = B;
-            V53 = B;
-            V43 = B;
-            } else if (V43 == B && V53 == W && V63 == W && V73 == W) {
-            V83 = B;
-            V73 = B;
-            V63 = B;
-            V53 = B;
-            } else if (V53 == B && V63 == W && V73 == W) {
-            V83 = B;
-            V73 = B;
-            V63 = B;
-            } else if (V63 == B && V73 == W) {
-            V83 = B;
-            V73 = B;
+            V64 = B;
+            V54 = B;
+            } else if (V54 == B && V64 == W && V74 == W) {
+            V84 = B;
+            V74 = B;
+            V64 = B;
+            } else if (V64 == B && V74 == W) {
+            V84 = B;
+            V74 = B;
             } else {
             }
             
