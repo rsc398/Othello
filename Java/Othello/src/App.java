@@ -2560,94 +2560,99 @@ public class App {
             } else if (V13 == B && V14 == W) {
             V15 = B;
             V14 = B;
-            } else if (V41 == B && V32 == W && V23 ==W ) {//右上 ここから　
+            } else if (V51 == B && V42 == B && V33 == W && V24 ==W ) {//右上
             V15 = B;
-            V24 = B;
-            V33 = B;
-            } else if (V32 == B && V23 ==W ) {
-            V14 = B;
-            V23 = B;
-            } else if (V84 == B && V74 == W && V64 == W && V54 == W && V44 == W && V34 == W && V24 == W) {//右
-            V14 = B;
-            V24 = B;
-            V34 = B;
-            V44 = B;
-            V54 = B;
-            V64 = B;
-            V74 = B;
-            } else if (V74 == B && V64 == W && V54 == W && V44 == W && V34 == W && V24 == W) {
-            V14 = B;
-            V24 = B;
-            V34 = B;
-            V44 = B;
-            V54 = B;
-            V64 = B;
-            } else if (V64 == B && V54 == W && V44 == W && V34 == W && V24 == W) {
-            V14 = B;
-            V24 = B;
-            V34 = B;
-            V44 = B;
-            V54 = B;
-            } else if (V54 == B && V44 == W && V34 == W && V24 == W) {
-            V14 = B;
-            V24 = B;
-            V34 = B;
-            V44 = B;
-            } else if (V44 == B && V34 == W && V24 == W) {
-            V14 = B;
-            V24 = B;
-            V34 = B;
-            } else if (V34 == B && V24 == W) {
-            V14 = B;
-            V24 = B;
-            } else if (V58 == B && V47 == W && V36 == W && V25 == W) {//右下
-            V14 = B;
-            V25 = B;
-            V36 = B;
-            V47 = B;
-            } else if (V47 == B && V36 == W && V25 == W) {
-            V14 = B;
-            V25 = B;
-            V36 = B;
-            } else if (V36 == B && V25 == W) {
-            V14 = B;
-            V25 = B;
-            } else if (V18 == B && V17 == W && V16 == W && V15 == W) {//下
-            V14 = B;
-            V15 = B;
-            V16 = B;
-            V17 = B;
-            } else if (V17 == B && V16 == W && V15 == W) {
-            V14 = B;
-            V15 = B;
-            V16 = B;
-            } else if (V16 == B && V15 == W) {
-            V14 = B;
-            V15 = B;
-            } else { 
-            }
-        //V24
-        if (V21 == B && V22 == W && V23 == W) {//上
-            V24 = B;
-            V23 = B;
-            V22 = B;
-            } else if (V22 == B && V23 == W) {
-            V24 = B;
-            V23 = B;
-            } else if (V51 == B && V42 == W && V33 == W){//右上
             V24 = B;
             V33 = B;
             V42 = B;
-            } else if (V42 == B && V33 == W){
+            } else if (V42 == B && V33 == W && V24 ==W ) {
+            V15 = B;
             V24 = B;
             V33 = B;
-            } else if (V84 == B && V74 == W && V64 == W && V54 == W && V44 == W && V34 == W) {//右
+            } else if (V33 == B && V24 ==W ) {
+            V15 = B;
             V24 = B;
+            } else if (V85 == B && V75 == W && V65 == W && V55 == W && V45 == W && V35 == W && V25 == W) {//右
+            V15 = B;
+            V25 = B;
+            V35 = B;
+            V45 = B;
+            V55 = B;
+            V65 = B;
+            V75 = B;
+            } else if (V75 == B && V65 == W && V55 == W && V45 == W && V35 == W && V25 == W) {
+            V15 = B;
+            V25 = B;
+            V35 = B;
+            V45 = B;
+            V55 = B;
+            V65 = B;
+            } else if (V65 == B && V55 == W && V45 == W && V35 == W && V25 == W) {
+            V15 = B;
+            V25 = B;
+            V35 = B;
+            V45 = B;
+            V55 = B;
+            } else if (V55 == B && V45 == W && V35 == W && V25 == W) {
+            V15 = B;
+            V25 = B;
+            V35 = B;
+            V45 = B;
+            } else if (V45 == B && V35 == W && V25 == W) {
+            V15 = B;
+            V25 = B;
+            V35 = B;
+            } else if (V35 == B && V25 == W) {
+            V15 = B;
+            V25 = B;
+            } else if (V48 == B && V37 == W && V26 == W) {//右下
+            V15 = B;
+            V26 = B;
+            V37 = B;
+            } else if (V37 == B && V26 == W) {
+            V15 = B;
+            V26 = B;
+            } else if (V18 == B && V17 == W && V16 == W) {//下
+            V15 = B;
+            V16 = B;
+            V17 = B;
+            } else if (V17 == B && V16 == W) {
+            V15 = B;
+            V16 = B;
+            } else { 
+            }
+        //V25
+        if (V21 == B && V22 == W && V23 == W && V24 == W) {//上
+            V25 = B;
+            V24 = B;
+            V23 = B;
+            V22 = B;
+            } else if (V22 == B && V23 == W && V24 == W) {
+            V25 = B;
+            V24 = B;
+            V23 = B;
+            } else if (V23 == B && V24 == W) {
+            V25 = B;
+            V24 = B;
+            } else if (V61 == B && V52 == W && V43 == W && V34 == W){//右上
+            V25 = B;
             V34 = B;
-            V44 = B;
-            V54 = B;
-            V64 = B;
-            V74 = B;
+            V43 = B;
+            V52 = B;
+            } else if (V52 == B && V43 == W && V34 == W){
+            V25 = B;
+            V34 = B;
+            V43 = B;
+            } else if (V43 == B && V34 == W){
+            V25 = B;
+            V34 = B;
+            } else if (V85 == B && V75 == W && V65 == W && V55 == W && V45 == W && V35 == W) {//右
+            V25 = B;
+            V35 = B;
+            V45 = B;
+            V55 = B;
+            V65 = B;
+            V75 = B;
             } else if (V74 == B && V64 == W && V54 == W && V44 == W && V34 == W) {
             V24 = B;
             V34 = B;
