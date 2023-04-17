@@ -2877,7 +2877,7 @@ public class App {
             } else if (V37 == B && V46 == W) {
             V55 = B;
             V46 = B;
-            } else if (V15 == B && V25 == W && V35 == W && V45 == W) {//左 ここまで
+            } else if (V15 == B && V25 == W && V35 == W && V45 == W) {//左
             V55 = B;
             V45 = B;
             V35 = B;
@@ -2891,7 +2891,7 @@ public class App {
             V45 = B;
             } else {
             }
-        //65
+        //65 ここから
         if (V61 == B && V62 == W && V63 == W){//上
             V64 = B;
             V63 = B;
